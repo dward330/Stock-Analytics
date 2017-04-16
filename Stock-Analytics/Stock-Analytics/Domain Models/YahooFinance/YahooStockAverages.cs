@@ -23,5 +23,4 @@ namespace Stock_Analytics.Domain_Models.YahooFinance
         public String MovingAverage50Day { get; set; }
         public String MovingAverage200Day { get; set; }
     }
-    }
 }
