@@ -1,0 +1,6 @@
+# Stock-Analytics
+* Pulls Down Stock Data and persists it to the Database.
+* Run Analytics on Stock Data
+  * GUI: Coming Soon...
+  * What was Challenging:
+    * Coming Soon...
