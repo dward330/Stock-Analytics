@@ -6,5 +6,5 @@
   * Desktop Application UI Front End: Coming Soon
   
 * Authors: 
- * Derrick Kyle Ward
- * Alex Titus Glover
+  * Derrick Kyle Ward
+  * Alex Titus Glover
