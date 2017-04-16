@@ -43,11 +43,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Domain Models\YahooFinance\YahooStock52WeekPricing.cs" />
+    <Compile Include="Domain Models\YahooFinance\YahooStockAverages.cs" />
+    <Compile Include="Domain Models\YahooFinance\YahooStockDate.cs" />
+    <Compile Include="Domain Models\YahooFinance\YahooStockMisc.cs" />
+    <Compile Include="Domain Models\YahooFinance\YahooStockPricing.cs" />
+    <Compile Include="Domain Models\YahooFinance\YahooStock.cs" />
+    <Compile Include="Domain Models\YahooFinance\YahooStockDividends.cs" />
+    <Compile Include="Domain Models\YahooFinance\YahooStockRatios.cs" />
+    <Compile Include="Domain Models\YahooFinance\YahooStockSymbolInfo.cs" />
+    <Compile Include="Domain Models\YahooFinance\YahooStockVolume.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Deserializers\" />
+    <Folder Include="Serializers\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
