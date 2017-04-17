@@ -194,6 +194,9 @@ namespace Stock_Analytics.Loggers
             while (!this.LoggerDequeuerOffline)
                 Thread.Sleep(1000);
 
+            //Stop the Thread Dequeuing Log Messages
+            this.LogMessageDequeueThread.Abort();
+
             this._logQueue = null;
             this.logFileName = null;
             this.logFileFullPath = null;
